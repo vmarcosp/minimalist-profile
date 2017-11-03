@@ -12,11 +12,11 @@
   }
   >.header-background{
     @include size(100%);
-    background-image:url('/assets/images/profile.jpeg');
+    background-image:url('/assets/images/profile.png');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(1px);
+    filter: blur(2px);
   }
 }
 
@@ -49,7 +49,7 @@
   }
   >.header-profile-photo{
     border-radius:50%;  
-    background-image:url('/assets/images/profile.jpeg');
+    background-image:url('/assets/images/profile.png');
     background-repeat: no-repeat;
     background-size:cover;
     @media screen and(min-width:$mobile-screen-size){
