@@ -53,7 +53,13 @@ gulp.task('build:images', () =>
     .pipe(gulp.dest('dist/assets/images'))
 )
 
-gulp.task('build', ['build:html', 'build:css', 'build:replace-fa', 'build:images'])
+gulp.task('build:replace-image', () =>
+  gulp.src('dist/index.html')
+    .pipe(gulpReplace('/images/', '/assets/images/'))
+    .pipe(gulp.dest('dist/'))
+)
+
+gulp.task('build', ['build:html', 'build:css', 'build:replace-fa', 'build:images', 'build:replace-images'])
 
 gulp.task('dev', ['sass'], () => {
 
