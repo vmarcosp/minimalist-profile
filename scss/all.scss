@@ -4,10 +4,16 @@ body,html{
   font-family:Montserrat;
   padding:0;
   margin:0;
+  height: 100%;
 }
 
 .container{
   background:white;
+}
+
+.content-wrapper{
+  position:relative;
+  top:100px;
 }
 
 @import 'elements/main';

@@ -1,0 +1,23 @@
+@import '../_utils/_variables';
+@import '../_utils/_mixins';
+@import '../_utils/_functions';
+
+.footer{
+  font-size:12px;
+  padding:{
+    top:1rem;
+    left:.5rem;
+    right:.5rem;
+  }
+  display: flex;
+  color:$gray;
+  justify-content: space-between;
+  a:visited,a:hover,a:active,a:link{
+    color:$gray-light;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .heart{
+    color:$pink;
+  }
+}
