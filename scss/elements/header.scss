@@ -12,7 +12,7 @@
   }
   >.header-background{
     @include size(100%);
-    background-image:url('/assets/images/profile.png');
+    // background-image:url('');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,9 +49,10 @@
   }
   >.header-profile-photo{
     border-radius:50%;  
-    background-image:url('/assets/images/profile.png');
+    // background-image:url('');
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;    
     @media screen and(min-width:$mobile-screen-size){
       @include size($circle-desktop-size);
     }
