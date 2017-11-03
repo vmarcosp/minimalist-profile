@@ -3,13 +3,12 @@
 A simple and minimalist profile template
 
 ## Preview
-Desktop:
+
 ![Desktop](https://github.com/vmarcosp/minimalist-profile/blob/master/screenshots/desktop.JPG)
 
-<br/>
-
-Mobile
 ![Mobile](https://github.com/vmarcosp/minimalist-profile/blob/master/screenshots/mobile.JPG)
+
+[Live preview](https://minimalist-profile.netlify.com/)
 
 ### Prerequisites
 
