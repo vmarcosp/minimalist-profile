@@ -9,7 +9,7 @@ Desktop:
 <br/>
 
 Mobile
-![Mobile](https://github.com/vmarcosp/minimalist-profile/blob/master/screenshots/desktop.JPG)
+![Mobile](https://github.com/vmarcosp/minimalist-profile/blob/master/screenshots/mobile.JPG)
 
 ### Prerequisites
 
@@ -26,7 +26,9 @@ npm run dev
 ```
 npm run build
 ```
+## Design 
+This template is based in [Aerea UI kit](https://www.behance.net/gallery/36601943/AEREA-FREE-UI-KIT), create by [Juan Luis Valle](http://juanluisvalle.com/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
