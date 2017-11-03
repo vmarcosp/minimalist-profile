@@ -8,6 +8,7 @@ import uglifyCss from 'gulp-uglifycss'
 import gulpCopy from 'gulp-copy'
 import gulpReplace from 'gulp-replace'
 import htmlReplace from 'gulp-html-replace'
+import imageMin from 'gulp-imagemin'
 
 const browserSync = create()
 
@@ -46,7 +47,13 @@ gulp.task('build:html', () =>
     .pipe(gulp.dest(DIST_PATH))
 )
 
-gulp.task('build', ['build:html', 'build:css', 'build:replace-fa'])
+gulp.task('build:images', () =>
+  gulp.src(['images/*.png', 'images/*.jpg', 'images/*.gif', 'images/*.jpeg'])
+    .pipe(imageMin())
+    .pipe(gulp.dest('dist/assets/images'))
+)
+
+gulp.task('build', ['build:html', 'build:css', 'build:replace-fa', 'build:images'])
 
 gulp.task('dev', ['sass'], () => {
 
