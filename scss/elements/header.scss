@@ -1,0 +1,63 @@
+@import '../_utils/_variables';
+@import '../_utils/_mixins';
+@import '../_utils/_functions';
+
+.header{
+  position:relative;
+  @media screen and(min-width:$mobile-screen-size){
+    height:300px;
+  }
+  @media screen and(max-width:$mobile-screen-size){
+    height:200px;
+  }
+  >.header-background{
+    @include size(100%);
+    background-image:url('https://goo.gl/QYwvky');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+  }
+}
+
+
+.header-profile{
+  // Size of circles
+  $circle-mobile-size:140px;
+  $circle-desktop-size:180px;
+  // Function to calculate margin left
+  @function calc-margin-left($border-size,$width){
+    @return -($width + ($border-size * 2)) / 2;
+  }
+  // Mixin to align element
+  @mixin align-to-center($border-size, $size, $top){
+    @include size($size);
+    margin-left:calc-margin-left($border-size, $size);
+    top:$top;
+    border:solid $border-size $pink;
+  }
+  box-shadow: 0 1px 3px rgba(246,38,88,0.12), 0 1px 2px rgba(246,38,88,0.24);
+  border-radius:50%;  
+  position:absolute;
+  left:50%;
+  padding:5px;
+  @media screen and(min-width:$mobile-screen-size){
+    @include align-to-center(7px,$circle-desktop-size,70%);
+  }
+  @media screen and(max-width:$mobile-screen-size){
+    @include align-to-center(3px,$circle-mobile-size,60%);
+  }
+  >.header-profile-photo{
+    border-radius:50%;  
+    background-image:url('https://goo.gl/QYwvky');
+    background-repeat: no-repeat;
+    background-size:cover;
+    @media screen and(min-width:$mobile-screen-size){
+      @include size($circle-desktop-size);
+    }
+    @media screen and(max-width:$mobile-screen-size){
+      @include size($circle-mobile-size);
+    }
+  }
+}
+  

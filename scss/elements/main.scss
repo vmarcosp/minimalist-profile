@@ -1,0 +1,39 @@
+@import '../_utils/_variables';
+@import '../_utils/_mixins';
+@import '../_utils/_functions';
+
+.profile{
+  position:relative;
+  top:100px;
+  text-align:center;
+  padding:0 1rem;
+  >.profile-name{
+    font-weight:normal;
+    text-transform:uppercase;
+  }
+  >.profile-location{
+    font-weight:bold;
+    color:$pink;
+  }
+  >.profile-bio{
+    color:$gray;
+  }
+}
+
+.social-container{
+  padding:2rem;
+  font-size:35px;
+  margin:0 auto;
+  >.social-icon{
+    margin: 0 .5rem;
+    &:active,&:link,&:visited{
+      color:$gray-light;
+      text-decoration:none;
+      outline:none;
+    }
+    &:hover{
+      color:$pink;
+      cursor:pointer;
+    }
+  }
+}
