@@ -4,12 +4,7 @@
 
 .header{
   position:relative;
-  @media screen and(min-width:$mobile-screen-size){
-    height:300px;
-  }
-  @media screen and(max-width:$mobile-screen-size){
-    height:200px;
-  }
+  height: $header-height;
   >.header-background{
     @include size(100%);
     background-size:cover;

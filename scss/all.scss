@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import '_utils/_variables';
+
+:root {
+  --header-height: 300px;
+
+  @media screen and (max-width: $mobile-screen-size) {
+    --header-height: 200px;
+  }
+}
 
 body,html{
   font-family:Montserrat;
@@ -13,7 +22,10 @@ body,html{
 
 .content-wrapper{
   position:relative;
-  top:100px;
+  top:$content-wrapper-top;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - (#{$header-height} + #{$content-wrapper-top}));
 }
 
 @import 'elements/main';
