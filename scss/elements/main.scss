@@ -1,28 +1,32 @@
 @import '../_utils/_variables';
 @import '../_utils/_mixins';
 
-.profile{
+.profile-body{
   text-align:center;
   padding:0 1rem;
-  >.profile-name{
+  >.name{
     color:$black;
     font-weight:normal;
     text-transform:uppercase;
   }
-  >.profile-location{
+  >.location{
     font-weight:bold;
     color:$pink;
   }
-  >.profile-bio{
+  >.bio{
     color:$gray;
+    @media screen and(min-width:$mobile-screen-size){
+      max-width: 900px;
+    }
+    margin: 0 auto;
   }
 }
 
-.social-container{
+.social-area{
   padding:2rem;
   font-size:35px;
   margin:0 auto;
-  >.social-icon{
+  >.icon{
     margin: 0 .5rem;
     &:active,&:link,&:visited{
       color:$gray-light;
