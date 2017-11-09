@@ -2,6 +2,12 @@
 
 A simple and minimalist profile template
 
+## Support
+
+| [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png" alt="IE / Edge" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Edge | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png" alt="Firefox" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png" alt="Chrome" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png" alt="Safari" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/opera.png" alt="Opera" width="16px" height="16px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
+| --------- | --------- | --------- | --------- | --------- |
+| 14+ | 38+ | 49+ | 10.2+ | 36+
+
 ## Preview
 
 ![Desktop](https://github.com/vmarcosp/minimalist-profile/blob/master/screenshots/desktop.JPG)
@@ -25,7 +31,7 @@ npm run dev
 ```
 npm run build
 ```
-## Design 
+## Design
 This template is based in [Aerea UI kit](https://www.behance.net/gallery/36601943/AEREA-FREE-UI-KIT), create by [Juan Luis Valle](http://juanluisvalle.com/)
 
 ## License
