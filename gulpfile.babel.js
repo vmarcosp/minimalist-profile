@@ -5,16 +5,23 @@ import sourcemaps from 'gulp-sourcemaps'
 import rename from 'gulp-rename'
 import concatCss from 'gulp-concat-css'
 import uglifyCss from 'gulp-uglifycss'
-import gulpCopy from 'gulp-copy'
 import gulpReplace from 'gulp-replace'
 import htmlReplace from 'gulp-html-replace'
 import imagemin from 'gulp-imagemin'
 
 const browserSync = create()
 
+/**
+ * Path constants
+ */
 const FONT_AWESOME_PATH = 'node_modules/font-awesome'
 const DIST_PATH = 'dist/'
 const ASSETS_PATH = `${DIST_PATH}/assets`
+
+/**
+ * Tasks for build project
+ */
+gulp.task('build', ['build:css', 'build:replace-fa', 'build:images', 'build:replace-image'])
 
 gulp.task('build:css', ['build:sourcemap'], () =>
   gulp.src(['css/style.css', `${FONT_AWESOME_PATH}/css/font-awesome.min.css`])
@@ -61,7 +68,12 @@ gulp.task('build:replace-image', ['build:html'], () =>
     .pipe(gulp.dest('dist/'))
 )
 
-gulp.task('build', ['build:css', 'build:replace-fa', 'build:images', 'build:replace-image'])
+
+/**
+ * Tasks for development
+ */
+
+gulp.task('default', ['sass', 'dev'])
 
 gulp.task('dev', ['sass'], () => {
 
@@ -81,4 +93,3 @@ gulp.task('sass', () =>
     .pipe(browserSync.stream())
 )
 
-gulp.task('default', ['sass', 'dev'])
