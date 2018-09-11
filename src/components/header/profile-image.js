@@ -40,6 +40,6 @@ const StyledProfileImage = styled.div`
 export const ProfileImage = props =>
   (
     <StyledProfileImage {...props}>
-      <div role="img" aria-label="Profile photo" class="image"></div>
+      <div role="img" aria-label="Profile photo" className="image"></div>
     </StyledProfileImage>
   ) 

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Header } from './components/header';
-import { injectGlobal } from 'styled-components'
+import { UserProfile } from './components/body';
+import { injectGlobal } from 'styled-components';
+import { pageTitle } from './profile.json';
 
 injectGlobal`
   :root {
@@ -18,8 +20,14 @@ injectGlobal`
   height: 100%;
   }
 `
+document.title = pageTitle || 'Minimalist';
 
 export const App = () => (
-  <Header>
-  </Header>
+  
+  <div>
+    <Header>
+    </Header>
+    <UserProfile>
+    </UserProfile>
+  </div>
 )
