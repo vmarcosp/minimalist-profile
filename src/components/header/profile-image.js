@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { pink } from '../../styleguide/colors';
+import { themeColor } from '../../styleguide/colors';
 
 const StyledProfileImage = styled.div`
   height: 270px;
@@ -12,7 +12,7 @@ const StyledProfileImage = styled.div`
   left:0;
   right: 0;
   padding:5px;
-  border:solid 7px ${pink};
+  border:solid 7px ${themeColor};
   top:30%;
 
   @media screen and(max-width:140px){
@@ -42,4 +42,4 @@ export const ProfileImage = props =>
     <StyledProfileImage {...props}>
       <div role="img" aria-label="Profile photo" className="image"></div>
     </StyledProfileImage>
-  ) 
+  )

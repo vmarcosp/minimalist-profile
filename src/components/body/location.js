@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { pink } from '../../styleguide/colors';
+import { themeColor } from '../../styleguide/colors';
 
 const StyledLocation = styled.p`
   font-weight:bold;
-  color: ${pink};
+  color: ${themeColor};
 `
 
 export const Location = ({location}) => <StyledLocation>{location}</StyledLocation>

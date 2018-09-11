@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { pink, grayLight } from "../../styleguide/colors";
+import { themeColor, grayLight } from "../../styleguide/colors";
 
 const StyledSocialArea = styled.div`
   padding: 2rem;
@@ -18,7 +18,7 @@ const StyledMedia = styled.a`
     outline: none;
   }
   &:hover {
-    color: ${pink};
+    color: ${themeColor};
     cursor: pointer;
   }
 `;
