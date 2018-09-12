@@ -8,7 +8,7 @@ import { SocialArea } from './social-area';
 import { Footer } from '../footer';
 import { headerHeight } from '../../styleguide/breakpoints';
 
-const StyledContent = styled.main` 
+const StyledContent = styled.main`
   text-align:center;
   padding:0 1rem;
 `
@@ -18,9 +18,11 @@ const Wrapper = styled.div`
   top: 100px;
   display: flex;
   flex-direction: column;
-  min-height: calc(100% - (${headerHeight} + 100px));`
+  min-height: calc(100% - (300px + 100px));
+  `
 
-export const UserProfile = () => 
+export const UserProfile = () =>
+(
 <Wrapper>
   <StyledContent>
     <Name name={name}></Name>
@@ -30,3 +32,4 @@ export const UserProfile = () =>
   </StyledContent>
   <Footer></Footer>
 </Wrapper>
+)

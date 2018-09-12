@@ -7,4 +7,8 @@ const StyledLocation = styled.p`
   color: ${themeColor};
 `
 
-export const Location = ({location}) => <StyledLocation>{location}</StyledLocation>
+export const Location = ({location}) => (
+  <StyledLocation>
+    {location}
+  </StyledLocation>
+)

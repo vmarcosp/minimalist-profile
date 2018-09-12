@@ -1,13 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import { pink } from '../../styleguide/colors';
+import { themeColor } from '../../styleguide/colors';
 
-const StyledIconSpan = styled.span`
-  color: ${pink}
+const StyledContainer = styled.div`
+  display: flex;
+  align-items: center;
+  .icon {
+    color: ${themeColor};
+    font-size: 20px;
+    margin-left: 5px;
+  }
 `
 
-export const MadeWith = ({madeWith}) => (
-  <span>
-    {madeWith} <StyledIconSpan>❤</StyledIconSpan>
-  </span>
+export const MadeWith = ({ description }) =>
+(
+  <StyledContainer>
+    {description} <span className='icon'>❤</span>
+  </StyledContainer>
 )

@@ -13,22 +13,20 @@ injectGlobal`
       --header-height: 200px;
     }
   }
-  
+
   body, html, #app {
   font-family: 'Montserrat';
   padding:0;
   margin:0;
   height: 100%;
-  }
+}
 `
 document.title = pageTitle || 'Minimalist';
 
 export const App = () => (
-  
-  <div>
-    <Header>
-    </Header>
-    <UserProfile>
-    </UserProfile>
-  </div>
+
+  <React.Fragment>
+    <Header />
+    <UserProfile />
+  </React.Fragment>
 )

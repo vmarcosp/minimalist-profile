@@ -7,4 +7,8 @@ const StyledName = styled.h2`
   font-weight:normal;
   text-transform:uppercase;`;
 
-export const Name = ({name}) => <StyledName>{name}</StyledName>
+export const Name = ({name}) => (
+  <StyledName>
+    {name}
+  </StyledName>
+  )

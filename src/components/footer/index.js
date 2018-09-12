@@ -13,15 +13,14 @@ const StyledFooter = styled.footer`
   justify-content: space-between;
 `
 
-export const Footer = (props) => (
+export const Footer = () => (
   <StyledFooter>
-  <DesignCredits 
-    content="Juan (Aerea UI Kit)" 
+  <DesignCredits
+    content="Juan (Aerea UI Kit)"
     arialLabel="Know more about Juan Valle and Aerea UI Kit"
     link="http://juanluisvalle.com/">
   </DesignCredits>
-  <MadeWith madeWith="Made with React, css and">
+  <MadeWith description="Made with React and">
 
   </MadeWith>
   </StyledFooter>);
-  

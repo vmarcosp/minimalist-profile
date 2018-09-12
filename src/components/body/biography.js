@@ -12,4 +12,8 @@ const StyledBiography = styled.p`
   margin: 0 auto;
 `
 
-export const Biography = ({biography}) => <StyledBiography>{biography}</StyledBiography>
+export const Biography = ({biography}) => (
+  <StyledBiography>
+    {biography}
+  </StyledBiography>
+  )
