@@ -5,8 +5,10 @@ import { Location } from "./location";
 import { name, location, biography, socialLinks} from "./../../profile.json";
 import { Biography } from './biography';
 import { SocialArea } from './social-area';
+import { Footer } from '../footer';
+import { headerHeight } from '../../styleguide/breakpoints';
 
-const StyledContent = styled.div` 
+const StyledContent = styled.main` 
   text-align:center;
   padding:0 1rem;
 `
@@ -16,7 +18,7 @@ const Wrapper = styled.div`
   top: 100px;
   display: flex;
   flex-direction: column;
-  min-height: calc(100% - (var(--header-height) + 100px));`
+  min-height: calc(100% - (${headerHeight} + 100px));`
 
 export const UserProfile = () => 
 <Wrapper>
@@ -26,4 +28,5 @@ export const UserProfile = () =>
     <Biography biography={biography}></Biography>
     <SocialArea socialLinks={socialLinks}></SocialArea>
   </StyledContent>
+  <Footer></Footer>
 </Wrapper>

@@ -9,7 +9,7 @@ const StyledSocialArea = styled.div`
 `;
 
 const StyledMedia = styled.a`
-  margin: 0 0.5rem;
+  margin: 0 .5rem;
   &:active,
   &:link,
   &:visited {
