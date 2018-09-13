@@ -16,7 +16,39 @@ A simple and minimalist profile template
 
 [Live preview](https://minimalist-profile.netlify.com/)
 
-### Setup
+### How to use
+
+- Fork the repository to your GitHub
+- Edit [**profile.json**](https://github.com/vmarcosp/minimalist-profile/blob/master/src/profile.json) and insert your infos
+
+`profile.json`
+```json
+{
+  // Your page title, e.g Eric Bachmann | Investor
+  "pageTitle": "",
+  // Your name
+  "name": "",
+  // Main color for the theme, e.g #fffff
+  "themeColor": "",
+  // Location
+  "location": "",
+  // Your biography
+  "biography": "",
+  // Your social links, see the params
+  "socialLinks": [
+    {
+      "name": "",
+      "icon": "",
+      "link": ""
+    },
+  ]
+}
+```
+- This project uses `Font-Awesome`, to see more social icons [click here](https://fontawesome.com/v4.7.0/)
+
+
+
+### Requirements
 
 - Node v8+
 
