@@ -16,24 +16,30 @@ A simple and minimalist profile template
 
 [Live preview](https://minimalist-profile.netlify.com/)
 
-### Prerequisites
+### Setup
 
-- Node 6+
-- npm 3+
+- Node v8+
 
 ### Development
 
-```
+```sh
+yarn dev 
+# or
 npm run dev
 ```
+
 ### Build
 
-```
+```sh
+yarn build
+# or
 npm run build
 ```
+
 ## Design
-This template is based in [Aerea UI kit](https://www.behance.net/gallery/36601943/AEREA-FREE-UI-KIT), create by [Juan Luis Valle](http://juanluisvalle.com/)
+This template is based in [Aerea UI kit](https://www.behance.net/gallery/36601943/AEREA-FREE-UI-KIT), created by [Juan Luis Valle](http://juanluisvalle.com/)
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>  (Do What the Fuck You Want to Public License)
