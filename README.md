@@ -24,17 +24,17 @@ A simple and minimalist profile template
 `profile.json`
 ```json
 {
-  // Your page title, e.g Eric Bachmann | Investor
+  Your page title, e.g Eric Bachmann | Investor
   "pageTitle": "",
-  // Your name
+  Your name
   "name": "",
-  // Main color for the theme, e.g #fffff
+  Main color for the theme, e.g #fffff
   "themeColor": "",
-  // Location
+  Location
   "location": "",
-  // Your biography
+  Your biography
   "biography": "",
-  // Your social links, see the params
+  Your social links, see the params
   "socialLinks": [
     {
       "name": "",
