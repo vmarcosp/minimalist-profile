@@ -27,6 +27,7 @@ export const SocialArea = ({ socialLinks }) => (
   <StyledSocialArea>
     {socialLinks.map(({ icon, link }, index) => (
       <StyledMedia
+        rel="noreferrer"
         role="link"
         target="_blank"
         key={index}

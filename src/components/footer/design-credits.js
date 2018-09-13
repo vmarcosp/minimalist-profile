@@ -12,6 +12,6 @@ const StyledLink = styled.a`
 export const DesignCredits = ({ content, link, arialLabel }) => (
   <span>
     Design by:
-    <StyledLink role="link" href={link} arial-label={arialLabel}> {content} </StyledLink>
+    <StyledLink rel="noreferrer"role="link" href={link} arial-label={arialLabel}> {content} </StyledLink>
   </span>
 );
