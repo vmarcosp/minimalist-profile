@@ -61,3 +61,6 @@ typings/
 # build
 dist/
 css/
+
+#parcel
+.cache/
