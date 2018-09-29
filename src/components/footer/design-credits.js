@@ -9,9 +9,14 @@ const StyledLink = styled.a`
   cursor: pointer;
 `
 
+const StyledSpan = styled.span`
+  display: block;
+  align-items: center;
+`
+
 export const DesignCredits = ({ content, link, arialLabel }) => (
-  <span>
+  <StyledSpan>
     Design by:
     <StyledLink rel="noreferrer"role="link" href={link} arial-label={arialLabel}> {content} </StyledLink>
-  </span>
+  </StyledSpan>
 );

@@ -15,7 +15,7 @@ const StyledProfileImage = styled.div`
   border:solid 7px ${themeColor};
   top:30%;
 
-  @media screen and(max-width:140px){
+  @media screen and (max-width:500px){
     height: 140px;
     width: 140px;
     border-width: 3px;
@@ -30,7 +30,7 @@ const StyledProfileImage = styled.div`
     background-size:cover;
     background-position: center;
     background-image: url(${props => props.imageUrl});
-    @media screen and(max-width: 140px){
+    @media screen and (max-width: 500px){
       height: 140px;
       width: 140px;
     }

@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { themeColor } from '../../styleguide/colors';
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.span`
   display: flex;
   align-items: center;
+  display: block;
   .icon {
     color: ${themeColor};
     font-size: 20px;
