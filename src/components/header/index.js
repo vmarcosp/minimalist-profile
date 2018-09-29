@@ -7,7 +7,7 @@ import { headerHeight } from '../../styleguide/breakpoints'
 
 const StyledHeader = styled.header`
   position:relative;
-  height: 300px;
+  height: ${headerHeight};
 `
 
 export const Header = () =>

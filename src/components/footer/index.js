@@ -7,7 +7,7 @@ import { MadeWith } from './made-with';
 const StyledFooter = styled.footer`
   font-size: 12px;
   margin-top: auto;
-  padding: .5rem 1rem;
+  padding: .5rem 0.5rem;
   display: flex;
   color: ${grayLight};
   justify-content: space-between;
@@ -15,12 +15,10 @@ const StyledFooter = styled.footer`
 
 export const Footer = () => (
   <StyledFooter>
-  <DesignCredits
-    content="Juan (Aerea UI Kit)"
-    arialLabel="Know more about Juan Valle and Aerea UI Kit"
-    link="http://juanluisvalle.com/">
-  </DesignCredits>
-  <MadeWith description="Made with React and">
-
-  </MadeWith>
+    <DesignCredits
+      content="Juan (Aerea UI Kit)"
+      arialLabel="Know more about Juan Valle and Aerea UI Kit"
+      link="http://juanluisvalle.com/">
+    </DesignCredits>
+    <MadeWith description="Made with React and"/>
   </StyledFooter>);

@@ -25,11 +25,11 @@ export const UserProfile = () =>
 (
 <Wrapper>
   <StyledContent>
-    <Name name={name}></Name>
-    <Location location={location}></Location>
-    <Biography biography={biography}></Biography>
-    <SocialArea socialLinks={socialLinks}></SocialArea>
+    <Name name={name}/>
+    <Location location={location}/>
+    <Biography biography={biography}/>
+    <SocialArea socialLinks={socialLinks}/>
   </StyledContent>
-  <Footer></Footer>
+  <Footer/>
 </Wrapper>
 )
