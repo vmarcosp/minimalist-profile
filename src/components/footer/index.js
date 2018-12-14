@@ -16,8 +16,9 @@ const StyledFooter = styled.footer`
 export const Footer = () => (
   <StyledFooter>
     <DesignCredits
-      content=" Juan (Aerea UI Kit)"
+      content="Juan (Aerea UI Kit)"
       arialLabel="Know more about Juan Valle and Aerea UI Kit"
-      link="http://juanluisvalle.com/"/>
-  <MadeWith description="Made with React and"/>
+      link="http://juanluisvalle.com/">
+    </DesignCredits>
+    <MadeWith description="Made with React and"/>
   </StyledFooter>);

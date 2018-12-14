@@ -5,6 +5,7 @@ import { themeColor } from 'colors';
 const StyledContainer = styled.span`
   display: flex;
   align-items: center;
+  display: block;
   .icon {
     color: ${themeColor};
     font-size: 20px;
