@@ -13,7 +13,7 @@ const StyledLink = styled.a`
 `
 
 const StyledSpan = styled.span`
-  display: flex;
+  display: block;
   align-items: center;
 `
 
