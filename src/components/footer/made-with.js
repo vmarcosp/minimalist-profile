@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { themeColor } from '../../styleguide/colors';
+import { themeColor } from 'colors';
 
 const StyledContainer = styled.span`
   display: flex;

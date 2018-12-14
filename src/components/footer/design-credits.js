@@ -1,12 +1,15 @@
 import React from "react";
 import styled from 'styled-components';
-import { grayLight } from '../../styleguide/colors';
+import { grayLight, themeColor } from 'colors';
 
 const StyledLink = styled.a`
   color: ${grayLight};
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
+  &:hover{
+    color: ${themeColor}
+  }
 `
 
 const StyledSpan = styled.span`
