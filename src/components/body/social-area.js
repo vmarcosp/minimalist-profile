@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { themeColor, grayLight } from "colors";
+import { themeColor, grayLight } from "styleguide/colors";
 
 const StyledSocialArea = styled.div`
   padding: 2rem;
@@ -8,7 +8,6 @@ const StyledSocialArea = styled.div`
   margin: 0 auto;
 `;
 
-console.log(themeColor, ` asdasd`)
 const StyledMedia = styled.a`
   margin: 0 .5rem;
   &:active,

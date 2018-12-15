@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { themeColor } from 'colors';
+import { themeColor } from 'styleguide/colors';
 
 const StyledProfileImage = styled.div`
   height: 270px;

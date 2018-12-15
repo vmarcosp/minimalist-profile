@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import { grayLight, themeColor } from 'colors';
+import { grayLight, themeColor } from 'styleguide/colors';
 
 const StyledLink = styled.a`
   color: ${grayLight};
@@ -13,14 +13,14 @@ const StyledLink = styled.a`
 `
 
 const StyledSpan = styled.span`
+  margin-top: auto;
   display: block;
   align-items: center;
 `
 
-
 export const DesignCredits = ({ content, link, arialLabel }) => (
   <StyledSpan>
     Design by:
-    <StyledLink rel="noreferrer"role="link" href={link} arial-label={arialLabel}> {content} </StyledLink>
+    <StyledLink rel="noreferrer" role="link" href={link} arial-label={arialLabel}> {content} </StyledLink>
   </StyledSpan>
 );

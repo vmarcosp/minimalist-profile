@@ -6,8 +6,7 @@
   "plugins": [
     ["module-resolver", {
       "alias": {
-        "colors": "./src/styleguide/colors.js",
-        "breakpoints": "./src/styleguide/breakpoints.js"
+        "styleguide": "./src/styleguide/"
       }
     }]
   ]

@@ -3,7 +3,7 @@ import { Header } from './components/header';
 import { UserProfile } from './components/body';
 import { injectGlobal } from 'styled-components';
 import { pageTitle } from './profile.json';
-import { mobileScreenSize } from 'breakpoints';
+import { mobileScreenSize } from 'styleguide/breakpoints';
 
 injectGlobal`
   :root {
