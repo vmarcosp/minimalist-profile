@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { grayLight } from '../../styleguide/colors';
+import { grayLight } from 'styleguide/colors';
 import { DesignCredits } from './design-credits';
 import { MadeWith } from './made-with';
 

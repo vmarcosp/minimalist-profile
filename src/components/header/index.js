@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { ProfileImage } from './profile-image'
 import { Background } from './background';
 import imageUrl from '../../assets/profile.jpg'
-import { headerHeight } from '../../styleguide/breakpoints'
+import { headerHeight } from 'styleguide/breakpoints'
 
 const StyledHeader = styled.header`
   position:relative;

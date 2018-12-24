@@ -1,14 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import { themeColor } from '../../styleguide/colors';
+import { themeColor } from 'styleguide/colors';
 
 const StyledContainer = styled.span`
-  display: flex;
   align-items: center;
   display: block;
+  & > span {
+    margin-top: auto;
+  }
   .icon {
     color: ${themeColor};
-    font-size: 20px;
+    font-size: 12px;
     margin-left: 5px;
   }
 `

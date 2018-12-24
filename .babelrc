@@ -2,5 +2,12 @@
   "presets": [
     "env",
     "react"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "styleguide": "./src/styleguide/"
+      }
+    }]
   ]
 }
