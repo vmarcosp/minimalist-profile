@@ -18,7 +18,7 @@ export const Footer = () => (
     <DesignCredits
       content="Juan (Aerea UI Kit)"
       arialLabel="Know more about Juan Valle and Aerea UI Kit"
-      link="http://juanluisvalle.com/">
+      link="https://www.behance.net/gallery/36601943/AEREA-FREE-UI-KIT">
     </DesignCredits>
     <MadeWith description="Made with React and"/>
   </StyledFooter>);
