@@ -8,7 +8,7 @@ const StyledBackground = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(${props => props.imageUrl});
-  filter: blur(2px);
+  filter: grayscale(1) blur(2px);
 `
 
 export const Background = props => <StyledBackground {...props} role="img" aria-label="Header background" />
