@@ -1,24 +1,24 @@
 {
-  "pageTitle": "Eric Bachmann | Investor",
-  "name": "Eric Bachmann",
+  "pageTitle": "Aarushi Parashar | Data Scientist and Software Engineer",
+  "name": "Aarushi Parashar",
   "themeColor": "",
-  "location": "Silicon Valley, California",
-  "biography": "Lorem ipsum dolor sit amet, ex quod graeci vituperata per, recusabo comprehensam vel id. Vim oblique recteque at. Doming torquatos an quo. Duis meis zril vim ea. Homero doming sit cu, ei laudem maiorum appetere sit. Deleniti atomorum eu sit. Ne iudico liberavisse sea. Nam at erant debitis, erant efficiendi cum in, ut pro iusto quaestio iudicabit.",
+  "location": "Computer Science at Cornell University",
+  "biography": "I'm Aarushi Parashar, a Freshman majoring in Computer Science and minoring in Applied Mathematics and Operations Research and Management Sciences at Cornell University. Among my interests are neural networks,/cognitive computing development, cloud and distributed computing, autonomous systems, and software engineering. In school, I am currently a software engineer at Cornell Mars Rover(CMR), a project team that designs and builds an autonomous rover.  This summer I am a research intern at IBM working on building various neural network models to predict whether a small molecule will bind to a protein. This is currently my temporary website, so stay tuned for the official one to replace this sometime soon!",
   "socialLinks": [
     {
       "name": "Github",
       "icon": "fa-github",
-      "link": "https://link-your-github"
+      "link": "https://github.com/aaparashar"
     },
     {
-      "name": "CodePen",
-      "icon": "fa-codepen",
-      "link": "https://link-your-codepen"
+      "name": "Resume",
+      "icon": "fa-file-text",
+      "link": "https://drive.google.com/file/d/11ZHmQebnTxBP1Mfhp0Gyzzl9l6eH3dKq/view?usp=sharing"
     },
     {
       "name": "LinkedIn",
       "icon": "fa-linkedin",
-      "link": "https://link-your-linkedin"
+      "link": "https://www.linkedin.com/in/aarushi-parashar-2b845914b"
     }
   ]
 }
