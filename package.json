@@ -22,7 +22,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "parcel-bundler": "^1.10.3"
   },
   "dependencies": {
