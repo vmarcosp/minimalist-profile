@@ -1,24 +1,19 @@
 {
-  "pageTitle": "Eric Bachmann | Investor",
-  "name": "Eric Bachmann",
+  "pageTitle": "Rizky Abdul Jabar | Mahasiswa",
+  "name": "Rizky Abdul Jabar",
   "themeColor": "",
-  "location": "Silicon Valley, California",
-  "biography": "Lorem ipsum dolor sit amet, ex quod graeci vituperata per, recusabo comprehensam vel id. Vim oblique recteque at. Doming torquatos an quo. Duis meis zril vim ea. Homero doming sit cu, ei laudem maiorum appetere sit. Deleniti atomorum eu sit. Ne iudico liberavisse sea. Nam at erant debitis, erant efficiendi cum in, ut pro iusto quaestio iudicabit.",
+  "location": "Surabaya, Jawa Timur, Indonesia",
+  "biography": "Belajar Git untuk tugas Mata Kuliah MPSI.",
   "socialLinks": [
     {
       "name": "Github",
       "icon": "fa-github",
-      "link": "https://link-your-github"
+      "link": "https://github.com/rizkyJabar5"
     },
     {
-      "name": "CodePen",
-      "icon": "fa-codepen",
-      "link": "https://link-your-codepen"
-    },
-    {
-      "name": "LinkedIn",
-      "icon": "fa-linkedin",
-      "link": "https://link-your-linkedin"
+      "name": "Instagram",
+      "icon": "fa-instagram",
+      "link": "https://instagram.com/rizkyJabar5"
     }
   ]
 }
