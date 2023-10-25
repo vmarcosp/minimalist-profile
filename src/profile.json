@@ -1,24 +1,24 @@
 {
-  "pageTitle": "Eric Bachmann | Investor",
-  "name": "Eric Bachmann",
+  "pageTitle": "Sintia Fardiyanti Rosianah | Student",
+  "name": "Sintia Fardiyanti Rosianah",
   "themeColor": "",
-  "location": "Silicon Valley, California",
-  "biography": "Lorem ipsum dolor sit amet, ex quod graeci vituperata per, recusabo comprehensam vel id. Vim oblique recteque at. Doming torquatos an quo. Duis meis zril vim ea. Homero doming sit cu, ei laudem maiorum appetere sit. Deleniti atomorum eu sit. Ne iudico liberavisse sea. Nam at erant debitis, erant efficiendi cum in, ut pro iusto quaestio iudicabit.",
+  "location": "Jakarta, Indonesia",
+  "biography": "I am Sintia Fardiyanti Rosianah, a sixth-semester student at Pamulang University.I have been actively engaged in various educational and extracurricular activities, contributing to a holistic learning experience. My dedication to continuous learning and innovation drives my pursuit of excellence in the world of technology.",
   "socialLinks": [
     {
       "name": "Github",
       "icon": "fa-github",
-      "link": "https://link-your-github"
+      "link": "https://github.com/sfrosianah"
     },
     {
-      "name": "CodePen",
-      "icon": "fa-codepen",
-      "link": "https://link-your-codepen"
+      "name": "Email",
+      "icon": "fa-envelope",
+      "link": "sfrosianah23@gmail.com"
     },
     {
       "name": "LinkedIn",
       "icon": "fa-linkedin",
-      "link": "https://link-your-linkedin"
+      "link": "https://linkedin.com/in/sintia-fardiyanti-rosianah"
     }
   ]
 }
